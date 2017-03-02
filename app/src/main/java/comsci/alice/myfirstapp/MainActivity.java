@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,6 +43,19 @@ public class MainActivity extends AppCompatActivity {
         //Create ListView
         MyAdapter myAdapter = new MyAdapter(MainActivity.this, ints, titleStrings, shortStrings);
         listView.setAdapter(myAdapter);
+
+        //Active when click List View
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                Intent intent = new Intent(MainActivity.this, Detail.class);
+                intent.putExtra("Title", titleStrings[i]);
+                intent.putExtra("Detail", detailStrings[i]);
+                intent.putExtra("Image", ints[i]);
+                startActivity(intent);
+            }
+        });
 
 
     }   //Main Method onCreate
