@@ -5,4 +5,8 @@
     <string name="moreInfo">More Info.</string>
     <string name="aboutMe">About Me</string>
 
+    <string name="my_name"><b>ผู้จัดทำ : </b>พิชญ์สินี พุทธิทวีศรี</string>
+    <string name="my_workplace"><b>สถานที่ทำงาน : </b>หลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยสวนดุสิต</string>
+
+
 </resources>
