@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Detail" />
+        <activity android:name=".AboutMe"></activity>
     </application>
 
 </manifest>

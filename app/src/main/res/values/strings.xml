@@ -7,6 +7,9 @@
 
     <string name="my_name"><b>ผู้จัดทำ : </b>พิชญ์สินี พุทธิทวีศรี</string>
     <string name="my_workplace"><b>สถานที่ทำงาน : </b>หลักสูตรวิทยาการคอมพิวเตอร์ มหาวิทยาลัยสวนดุสิต</string>
+    <string name="my_tel"><b>ติดต่อ : </b>02-2445000</string>
+    <string name="my_email"><b>e-Mail : </b>p.pichsinee@gmail.com</string>
+    <string name="my_facebook"><b>Facebook : </b>https://www.facebook.com/Aj.Aom</string>
 
 
 </resources>
