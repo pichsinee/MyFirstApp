@@ -53,6 +53,17 @@ public class AboutMe extends AppCompatActivity {
             }
         });
 
+        //Phone onClick
+        TextView phoneTextView = (TextView) findViewById(R.id.txtTel);
+        phoneTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+                phoneIntent.setData(Uri.parse("tel:0897788708"));
+                startActivity(phoneIntent);
+            }
+        });
+
 
         //link to facebook
         TextView fbTextView = (TextView) findViewById(R.id.txtFacebook);
